@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       database: process.env.database,
       user: process.env.username_h,
       password: process.env.password,
-      ssl: env.bool("DATABASE_SSL", true),
+      ssl: true,
     },
   },
 });
