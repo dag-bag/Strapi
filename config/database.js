@@ -1,4 +1,3 @@
-console.log(process.env.username);
 module.exports = ({ env }) => ({
   connection: {
     client: "mysql",
