@@ -2,10 +2,10 @@ module.exports = ({ env }) => ({
   connection: {
     client: "mysql",
     connection: {
-      host: process.env.hostF,
-      database: process.env.database,
-      user: process.env.username_h,
-      password: process.env.password,
+      host: "sql610.main-hosting.eu",
+      database: "u779264867_demo",
+      user: "u779264867_demo",
+      password: "demo@1Dddd",
       ssl: true,
     },
   },
