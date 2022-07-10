@@ -6,7 +6,7 @@ module.exports = ({ env }) => ({
       database: "u779264867_demo",
       user: "u779264867_demo",
       password: "demo@1Dddd",
-      ssl: true,
+      // ssl: true,
     },
   },
 });
